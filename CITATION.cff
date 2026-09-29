@@ -1,0 +1,17 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 0
+title: 'diogolpires/TRM: v1.0.0b1'
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Diogo L.
+    family-names: Pires
+identifiers:
+  - type: doi
+    value: 
+repository-code: 'https://github.com/diogolpires/TRM'
+url: 'https://diogolpires.github.io'
