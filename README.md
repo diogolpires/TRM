@@ -1,14 +1,14 @@
-# TRMbeta
+# TRM
 
 ### Purpose
 
-This package offers tools to explore evolutionary dynamics under the Territorial Raider Model. This framework allows the study of structured multiplayer interactions under social dilemmas. See a usage of this package on arXiv. For more foundational work on it see https://doi.org/10.1016/j.jtbi.2017.06.034 and https://doi.org/10.1016/j.jtbi.2012.02.025.
+This package offers tools to explore evolutionary dynamics under the Territorial Raider Model. This framework allows the study of structured multiplayer interactions under social dilemmas. See a usage of this package on zenodo. For more foundational work on it see https://doi.org/10.1016/j.jtbi.2017.06.034 and https://doi.org/10.1016/j.jtbi.2012.02.025.
 
 
 ### Installation
 
 Run the command:
-`python3 -m pip install --upgrade git+https://github.com/diogolpires/TRMbeta.git`
+`python3 -m pip install --upgrade git+https://github.com/diogolpires/TRM.git`
 
 
 ### Usage
