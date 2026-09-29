@@ -1,4 +1,4 @@
-import TRMbeta
+import TRM
 import numpy as np
 
 #Example of building a population under the territorial raider model and extracting the fixation probabilities
@@ -26,7 +26,7 @@ for i in range(M):
 
 
 #Builds the population
-pop = TRMbeta.Population(M=M, h=10., w=0.3, C=1., V=5., game="CPD", dynamics="DBB", adjacency_matrix=adjacency_matrix, Q=2, topology="circle")
+pop = TRM.Population(M=M, h=10., w=0.3, C=1., V=5., game="CPD", dynamics="DBB", adjacency_matrix=adjacency_matrix, Q=2, topology="circle")
 
 #Provides both the aritmetic and the temperature-weighted average of the probability of one single mutant using C fixating 
 #on a population of D and vice-versa. Result in the form of [[fix_C, fix_D],[fixT_C, fixT_D]]
@@ -34,7 +34,7 @@ fix_prob = pop.get_fixation_probabilities()
 print(fix_prob)
 
 #Calculates the fixation probabilities for different valuess of h between 0.01 and 100 and saves them in a data folder
-TRMbeta.get_fixation_h(M=M, w=0.4, C=1., V=1., game="CPD", dynamics="DBB", adjacency_matrix=adjacency_matrix, Q=2, topology="circle")
-TRMbeta.get_fixation_h(M=M, w=0.4, C=1., V=2., game="CPD", dynamics="DBB", adjacency_matrix=adjacency_matrix, Q=2, topology="circle")
-TRMbeta.get_fixation_h(M=M, w=0.4, C=1., V=5., game="CPD", dynamics="DBB", adjacency_matrix=adjacency_matrix, Q=2, topology="circle")
-TRMbeta.get_fixation_h(M=M, w=0.4, C=1., V=10., game="CPD", dynamics="DBB", adjacency_matrix=adjacency_matrix, Q=2, topology="circle")
+TRM.get_fixation_h(M=M, w=0.4, C=1., V=1., game="CPD", dynamics="DBB", adjacency_matrix=adjacency_matrix, Q=2, topology="circle")
+TRM.get_fixation_h(M=M, w=0.4, C=1., V=2., game="CPD", dynamics="DBB", adjacency_matrix=adjacency_matrix, Q=2, topology="circle")
+TRM.get_fixation_h(M=M, w=0.4, C=1., V=5., game="CPD", dynamics="DBB", adjacency_matrix=adjacency_matrix, Q=2, topology="circle")
+TRM.get_fixation_h(M=M, w=0.4, C=1., V=10., game="CPD", dynamics="DBB", adjacency_matrix=adjacency_matrix, Q=2, topology="circle")
