@@ -1,7 +1,7 @@
 # This CITATION.cff file was generated with cffinit.
 # Visit https://bit.ly/cffinit to generate yours today!
 
-cff-version: 0
+cff-version: 1.1.0
 title: 'diogolpires/TRM: v1.0.0b1'
 message: >-
   If you use this software, please cite it using the
@@ -10,8 +10,11 @@ type: software
 authors:
   - given-names: Diogo L.
     family-names: Pires
+orcid: https://orcid.org/0000-0002-6069-7474
 identifiers:
   - type: doi
-    value: 
+    value: 10.5281/zenodo.23056096
 repository-code: 'https://github.com/diogolpires/TRM'
 url: 'https://diogolpires.github.io'
+version: v1.0.0b1
+date-released: 2026-09-30
