@@ -2,7 +2,7 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.1.0
-title: 'diogolpires/TRM: v1.0.0b1'
+title: 'diogolpires/TRM: v1.0.0b2'
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
@@ -16,5 +16,5 @@ identifiers:
     value: 10.5281/zenodo.23056096
 repository-code: 'https://github.com/diogolpires/TRM'
 url: 'https://diogolpires.github.io'
-version: v1.0.0b1
+version: v1.0.0b2
 date-released: 2026-09-30
